@@ -1,0 +1,28 @@
+{
+  "name": "rest_app",
+  "version": "1.0.0",
+  "description": "Never miss anything in Life.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "bhagyashree",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "json-response": "0.0.2",
+    "mongoose": "^5.1.4",
+    "pm2": "^2.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
